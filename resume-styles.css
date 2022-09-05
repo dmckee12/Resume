@@ -1,0 +1,45 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "picture title"
+    "contact-header contact"
+    "areas-header areas"
+    "history-header professional-history"
+    "education-header education";
+  /* grid-template-columns: auto auto; */
+  /* grid-template-rows: 100pt 100pt; */
+}
+.picture {
+  grid-area: picture;
+  max-width: 200px;
+}
+.contact {
+  grid-area: contact;
+}
+.areas {
+  grid-area: areas;
+}
+.professional-history {
+  grid-area: professional-history;
+}
+.education {
+  grid-area: education;
+}
+.title {
+  grid-area: title;
+}
+.contact-header {
+  grid-area: contact-header;
+}
+.areas-header {
+  grid-area: areas-header;
+}
+.history-header {
+  grid-area: history-header;
+}
+.education-header {
+  grid-area: education-header;
+}
+.picture img {
+  width: 100%;
+}
